@@ -1,14 +1,33 @@
 package com.bookstore.alvernaz_bookstore.model;
 
 import com.bookstore.alvernaz_bookstore.model.Enum.ECategoriaLivro;
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
 
+@Entity
 public class Livro {
 
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "id_livro")
     private Long id;
+
+    @Column(nullable = false)
     private String nome;
+
+    @Column(nullable = false)
     private Integer quantidade;
+
+    @Column(nullable = false)
     private String autor;
+
+    @Column(nullable = false)
     private ECategoriaLivro categoria;
+    
+    @Column(nullable = false)
     private double valor;
 
 
