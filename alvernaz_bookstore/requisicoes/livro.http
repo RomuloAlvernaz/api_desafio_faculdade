@@ -13,3 +13,21 @@ Content-Type: application/json
     "categoria": "TERROR",
     "valor":78.0
 }
+
+
+###
+
+PUT HTTP://localhost:8080/api/livros/4
+Content-Type: application/json
+
+{
+    "nome": "It: A Coisa",
+    "quantidade": 56,
+    "autor": "Stephen King",
+    "categoria": "TERROR",
+    "valor":65.0
+}
+
+###
+
+DELETE HTTP://localhost:8080/api/livros/3
