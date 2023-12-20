@@ -1,0 +1,15 @@
+GET HTTP://localhost:8080/api/livros
+
+
+###
+
+POST HTTP://localhost:8080/api/livros
+Content-Type: application/json
+
+{
+    "nome": "It: A Coisa",
+    "quantidade": 69,
+    "autor": "Stephen King",
+    "categoria": "TERROR",
+    "valor":78.0
+}

@@ -31,6 +31,17 @@ public class LivroService {
 
         return optLivro.get(); 
     }
+
+    public Livro atualizar(Long id, Livro livro){
+
+        livro.setId(id);
+        return livroRepository.save(livro); 
+
+    }
+
+    public void deletar(Long id){
+        livroRepository.deleteById(id);
+    }
 }
 
 
