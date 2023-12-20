@@ -1,4 +1,4 @@
-GET HTTP://localhost:8080/api/livros
+GET HTTP://localhost:8080/api/livros/
 
 
 ###
@@ -30,4 +30,4 @@ Content-Type: application/json
 
 ###
 
-DELETE HTTP://localhost:8080/api/livros/3
+DELETE HTTP://localhost:8080/api/livros/5
