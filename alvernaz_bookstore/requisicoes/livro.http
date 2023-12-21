@@ -1,4 +1,4 @@
-GET HTTP://localhost:8080/api/livros/
+GET HTTP://localhost:8080/api/livros
 
 
 ###
@@ -7,11 +7,11 @@ POST HTTP://localhost:8080/api/livros
 Content-Type: application/json
 
 {
-    "nome": "It: A Coisa",
-    "quantidade": 69,
-    "autor": "Stephen King",
-    "categoria": "TERROR",
-    "valor":78.0
+    "nome": "As Aventuras de Sherlock Holmes",
+    "quantidade": 18,
+    "autor": "Arthur Conan Doyle",
+    "categoria": "AVENTURA",
+    "valor": 28.0
 }
 
 
@@ -22,12 +22,12 @@ Content-Type: application/json
 
 {
     "nome": "It: A Coisa",
-    "quantidade": 56,
+    "quantidade": 45,
     "autor": "Stephen King",
     "categoria": "TERROR",
-    "valor":65.0
+    "valor":49.0
 }
 
 ###
 
-DELETE HTTP://localhost:8080/api/livros/5
+DELETE HTTP://localhost:8080/api/livros/7

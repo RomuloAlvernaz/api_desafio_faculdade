@@ -7,28 +7,29 @@ POST HTTP://localhost:8080/api/customers
 Content-Type: application/json
 
 {
-    "nome": "Fulano de Tal",
-    "cpf": "123.456.789-10",
-    "telefone": "(00) 1234-5678",
-    "email": "fulano@example.com",
-    "endereco": "Rua Araujo, 245, Valença, Rio de Janeiro. 27600-000"
+    "nome": "Patricia Oliveira",
+    "cpf": "901.234.567-89",
+    "telefone": "(00) 9012-3456",
+    "email": "patricia.oliveira@example.com",
+    "endereco": "Avenida dos Americas, 36, Centro, Porto Alegre. 70000-567"
 }
 
 
 
 ###
 
-PUT HTTP://localhost:8080/api/customers/1
+PUT HTTP://localhost:8080/api/customers/8
 Content-Type: application/json
 
 {
-    "nome": "Fulano de Tal",
-    "cpf": "123.456.789-10",
-    "telefone": "(00) 1234-5678",
-    "email": "fulano@gmail.com",
-    "endereco": "Rua Silva, 395, Valença-RJ. 27600-000"
+    
+    "nome": "Patricia Oliveira",
+    "cpf": "901.234.567-89",
+    "telefone": "(00) 9012-3456",
+    "email": "patricia@example.com",
+    "endereco": "Avenida das Americas, 36, Centro, Porto Alegre. 70000-567"
 }
 
 ###
 
-DELETE HTTP://localhost:8080/api/customers
+DELETE HTTP://localhost:8080/api/customers/9
